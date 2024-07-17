@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(5, 5, 99), rgb(7, 2, 27)) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener {
+    width: 65%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.contener h1 {
+    text-align: center;
+}
+.ansque {
+    width: 100%;
+}
+.questio {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    transition: .5s ease-in;
+    font-size: 1.3rem;
+    position: relative;
+    cursor: pointer;
+}
+.questio::after {
+    content: "+";
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    
+    transition: .5s ease-in;
+}
+.answer {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    transition: 1s ease-in;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease-in;
+}
+
+.action .answer {
+    height: 100px;
+    line-height: 1.5;
+}
+
+.action .questio {
+    font-size: 1rem;
+}
+.action .questio::after {
+    content: "-";
+    font-size: 1.2rem;
+}

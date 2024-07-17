@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&family=Carter+One&family=Ephesis&family=Fira+Sans:ital@1&family=Lobster&family=Manrope&family=Orbitron:wght@500&family=Poppins:wght@300;400;700&family=Roboto:wght@300&family=Tilt+Neon&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+    list-style: none;
+    color: white;
+}
+
+
+
+
+
+.imgcont {
+    width: 10%;
+}
+
+.skilimg {
+    inline-size: 90%;
+    aspect-ratio: 10 / 0;
+    object-fit: cover;
+}
+
+
+
+
+ 
+.per1 {
+    height: 1.9rem;
+    width: 60%;
+    background-color: #e44d26;
+    animation: filc 1s ease-in-out ;
+}
+
+@keyframes filc {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+.per2 {
+    height: 1.9rem;
+    width: 50%;
+    background-color: #264de4;
+    animation: filc2 1s ease-in-out ;
+}
+
+@keyframes filc2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+.per3 {
+    height: 1.9rem;
+    width: 25%;
+    background-color: #f7df1e;
+    animation: filc3 1s ease-in-out ;
+}
+
+@keyframes filc3 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+.skillcont {
+    width: 100%;
+    height: 100%;
+    background-image: url(image/Untitled.png);
+}
+
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.herocont {
+    width: 100%;
+    height: calc(var(--vh, 1vh) * 100);
+    background-image: url(image/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+    .naviga {
+        height: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 12px;
+        align-items: center;
+    }
+
+
+    .skilanicont {
+        padding: 10px 12px;
+        width: 100%;
+        height: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 790px) {
+    .list li {
+        display: none;
+    }
+
+    .list i {
+        display: block;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .skilanicont {
+        padding: 0px 12px;
+        width: 100%;
+        height: 70%;
+    }
+
+    .html, .css, .js {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .percentcont h2 {
+        font-size: 1rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 390px) {
+    .imgcont {
+        width: 25%;
+    }
+    
+    .skilimg {
+        inline-size: 90%;
+        aspect-ratio: 10 / 0;
+        object-fit: cover;
+    }
+}

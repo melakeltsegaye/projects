@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&family=Carter+One&family=Ephesis&family=Fira+Sans:ital@1&family=Lobster&family=Manrope&family=Orbitron:wght@500&family=Poppins:wght@300;400;700&family=Roboto:wght@300&family=Tilt+Neon&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+    color: white;
+    
+    list-style: none;
+}
+
+
+
+/* aboutcont section */
+
